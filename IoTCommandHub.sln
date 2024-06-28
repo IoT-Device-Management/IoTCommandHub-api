@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IotCommandHubEFLibrary", "IotCommandHubEFLibrary\IotCommandHubEFLibrary.csproj", "{7637FD42-A99C-4E63-A4DB-3C426C2F78EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserService", "UserService\UserService.csproj", "{42B83382-50DC-453E-AF1E-DF4ADB396857}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeviceService", "DeviceService\DeviceService.csproj", "{7DD5A3DE-A90B-4C4B-B6B6-6C134D14D4CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControlService", "ControlService\ControlService.csproj", "{5D92A56F-7647-4A76-BAF8-6C4FBEBFB4E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlertService", "AlertService\AlertService.csproj", "{25BA2218-092A-42A5-B5BA-5BA67D61AE8C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelemetryService", "TelemetryService\TelemetryService.csproj", "{0D5DB73B-06D2-407F-95E2-D11835A84BDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7637FD42-A99C-4E63-A4DB-3C426C2F78EB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7637FD42-A99C-4E63-A4DB-3C426C2F78EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7637FD42-A99C-4E63-A4DB-3C426C2F78EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7637FD42-A99C-4E63-A4DB-3C426C2F78EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42B83382-50DC-453E-AF1E-DF4ADB396857}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42B83382-50DC-453E-AF1E-DF4ADB396857}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42B83382-50DC-453E-AF1E-DF4ADB396857}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42B83382-50DC-453E-AF1E-DF4ADB396857}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD5A3DE-A90B-4C4B-B6B6-6C134D14D4CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD5A3DE-A90B-4C4B-B6B6-6C134D14D4CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD5A3DE-A90B-4C4B-B6B6-6C134D14D4CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD5A3DE-A90B-4C4B-B6B6-6C134D14D4CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D92A56F-7647-4A76-BAF8-6C4FBEBFB4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D92A56F-7647-4A76-BAF8-6C4FBEBFB4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D92A56F-7647-4A76-BAF8-6C4FBEBFB4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D92A56F-7647-4A76-BAF8-6C4FBEBFB4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25BA2218-092A-42A5-B5BA-5BA67D61AE8C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25BA2218-092A-42A5-B5BA-5BA67D61AE8C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25BA2218-092A-42A5-B5BA-5BA67D61AE8C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25BA2218-092A-42A5-B5BA-5BA67D61AE8C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0D5DB73B-06D2-407F-95E2-D11835A84BDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0D5DB73B-06D2-407F-95E2-D11835A84BDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0D5DB73B-06D2-407F-95E2-D11835A84BDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0D5DB73B-06D2-407F-95E2-D11835A84BDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C006CE8-635F-4602-86F0-AD5442B2FB87}
+	EndGlobalSection
+EndGlobal
